@@ -1,0 +1,186 @@
+/* navbar */
+.navbar{
+    background-color: #F4C2C2; 
+    color:  #FF69B4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    gap: 30px;
+}
+a{
+    text-decoration: none;
+    color:#FF69B4 ;
+    font-family:Fira Sans ;
+}
+a:hover{
+    color: hotpink;
+}
+/* welcome */
+.welcome{
+    background-color: #FFF0F5;
+    color: crimson;
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    padding-top: 10%;
+
+}
+button{
+    background-color: white;
+    color:palevioletred ;
+    width: 10%;
+    height: 30px;
+    border: 2px solid#cd75a1 ;
+    border-radius: 30%;
+}
+.order{
+    text-align: center;
+    color: hotpink;
+    font-family: Fira Sans;
+    font-size: 300%;
+    background-color: plum;
+}
+/* about us */
+.about{
+    text-align: center;
+    color:crimson;
+    font-family: Fira Sans;
+  background-color: hotpink;
+  height: 200px;
+}
+/* our menu */
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    background: #F4C2C2;
+}
+
+.card {
+    width: 230px;
+    height: 400px;
+    background-color: white;
+    border: 2px solid palevioletred;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+.card h2 {
+    color: hotpink;
+    margin-top: 28px;
+}
+
+.card p {
+    color: black;
+    font-size: 16px;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 5px;
+}
+
+.card h3 {
+    color: #555;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.our{
+    text-align: center;
+    color: #FF69B4;  
+}
+/* special */
+.special{
+    color: hotpink;
+text-align: center;
+}
+.todays{
+    color: grey;
+    text-align: center;
+}
+.today{
+    color: black;
+    text-align: center;
+}
+.btn{
+    background-color: white;
+    color:hotpink ;
+    width: 10%;
+    height: 30px;
+    border: 2px solid#cd75a1 ;
+    border-radius: 10%;
+    text-align: center;
+}
+.specials{
+    background-color: peachpuff;
+    text-align: center;
+}
+/* contact */
+.contact {
+    text-align: center;
+    width: 500px;
+    margin: 70px auto;
+}
+form {
+    margin-top: 30px;
+}
+
+input {
+    width: 400px;
+    height: 38px;
+    margin-bottom: 20px;
+    padding-left: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 400px;
+    height: 125px;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.btnn {
+    background-color: #f07bcb;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 30%;
+        height: 50px;
+}
+
+button:hover {
+    background-color:#fe0481;
+}
+/* footer */
+footer {
+    background-color:crimson ;
+    color: white;
+    text-align: center;
+    padding: 35px;
+    font-size: 16px;
+}
+/* us */
+.us{
+    color: hotpink;
+    text-align: center;
+    background-color: #F4C2C2;
+}

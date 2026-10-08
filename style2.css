@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f3bfc2;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.menu {
+    width: 100%;
+    padding: 25px 5%;
+}
+
+/* Section heading */
+
+.menubox {
+    text-align: center;
+    font-family: "Limelight", sans-serif;
+    font-size: 45px;
+    color: #ff5da2;
+    margin: 20px 0 30px;
+}
+
+/* Cards container */
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 50px;
+}
+
+/* Individual card */
+
+.card {
+    width: 315px;
+    min-height: 520px;
+    background-color: white;
+    border: 2px solid #ff6fa8;
+    border-radius: 20px;
+
+    text-align: center;
+
+    padding: 35px 20px 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Food name */
+
+.card h2 {
+    color: #ff5da2;
+    font-family: "Limelight", sans-serif;
+    font-size: 28px;
+
+    margin-bottom: 25px;
+}
+
+/* Image */
+
+.card img {
+    width: 250px;
+    height: 250px;
+
+    object-fit: cover;
+
+    margin-bottom: 25px;
+}
+
+/* Price */
+
+.card h3 {
+    color: #555;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 23px;
+
+    margin-top: auto;
+}
+.cart{
+    color: white;
+    background-color: #f3bfc2;
+    border: 3px solid palevioletred;
+    border-radius: 5%;
+    width: 30%;
+    height: 30px;
+}
